@@ -579,6 +579,10 @@ a.rr-a-btn:hover {
   background-color: #F2F7FD;
 }
 
+.star-gold{
+  color: gold;
+}
+
 /*---------------------------------
     1.7 common
 ---------------------------------*/
@@ -826,6 +830,10 @@ a.rr-a-btn:hover {
 
 .mb-minus-60 {
   margin-bottom: -60px;
+}
+
+.mt-15{
+  margin-top: 15px;
 }
 
 /*----------------------------------------*/
@@ -1366,7 +1374,7 @@ a.rr-a-btn:hover {
   height: 100%;
   left: 0;
   top: 0;
-  background: #071C3C;
+  /* background: #071C3C; */
   opacity: 0.9;
 }
 .breadcrumb__area.overly:before {
@@ -7767,6 +7775,7 @@ body .ui-tooltip {
   padding-top: 263px;
   background-repeat: no-repeat;
   background-position: 0 0;
+  background: linear-gradient(to bottom, rgba(237, 255, 228, 0) 0%, rgb(80 185 72 / 85%) 32%);
 }
 @media (max-width: 480px) {
   .footer-3__area-common .col-6 {
@@ -8015,11 +8024,19 @@ body .ui-tooltip {
   border-radius: 20px;
   overflow: hidden;
   padding: 30px 40px;
-  padding-right: 70px;
+  /* padding-right: 70px; */
   gap: 30px;
   position: relative;
   z-index: 99;
+  text-align: justify;
+  transition: all 300ms ease;
 }
+
+.footer__cta-item:hover{
+  box-shadow: 0px 0px 20px 5px rgb(80 185 72 / 40%);
+  transform: scale(1.1, 1.1);
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .footer__cta-item {
     padding: 30px 25px;
@@ -10203,7 +10220,7 @@ body .ui-tooltip {
   background: var(--rr-theme-primary);
 }
 .client-testimonial__item {
-  padding: 40px;
+  padding: 10px 40px 10px 40px;
   box-shadow: 0px 0px 10px 5px #E5EDEB;
   border-radius: 20px;
   border: 2px solid;
@@ -10528,10 +10545,12 @@ body .ui-tooltip {
 .experience-2__box {
   z-index: 3;
   position: relative;
-  padding: 99px 80px;
+  padding: 60px 80px;
   border-radius: 20px;
   overflow: hidden;
   gap: 15px;
+  box-shadow: 0px 0px 23px 10px rgba(0,0,0,0.1);
+  /* box-shadow: 0px 0px 23px 10px rgb(80 185 72 / 13%); */
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .experience-2__box {
@@ -10783,7 +10802,7 @@ body .ui-tooltip {
   overflow: hidden;
   position: absolute;
   border-radius: 50px;
-  background: var(--rr-color-100);
+  /* background: var(--rr-color-100); */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .about-us-3__background {
@@ -10795,6 +10814,7 @@ body .ui-tooltip {
   height: 100%;
   opacity: 0.1;
   background-size: cover;
+  filter: hue-rotate(275deg);
 }
 .about-us-3__content {
   max-width: 578px;
@@ -10888,11 +10908,11 @@ body .ui-tooltip {
 }
 
 .why-choose-us {
-  margin: 0 80px;
+  /* margin: 0 80px; */
   overflow: hidden;
   position: relative;
-  border-radius: 50px;
-  background: var(--rr-color-100);
+  /* border-radius: 50px; */
+  /* background: var(--rr-color-100); */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .why-choose-us {
@@ -10969,6 +10989,7 @@ body .ui-tooltip {
   -o-object-fit: cover;
   object-fit: cover;
   position: absolute;
+  filter: hue-rotate(275deg);
 }
 @media (max-width: 575px) {
   .why-choose-us__wrapper-media-shap {

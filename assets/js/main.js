@@ -610,3 +610,8 @@
 
 })(jQuery);
 
+$(document).on('mouseover','.footer__cta-item',function() {
+    $(this).addClass('feature-card-active');
+    $('.footer__cta-item').removeClass('feature-card-active');
+    $(this).addClass('feature-card-active');
+});

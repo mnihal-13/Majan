@@ -652,6 +652,22 @@ a.rr-a-btn:hover {
   -ms-flex-align: center;
 }
 
+.jstfy-centre{
+  justify-items: center;
+}
+
+.mt-minus-70{
+  margin-top: -70px;
+}
+
+.mb-rm-15{
+  margin-bottom: 15rem;
+}
+
+.experience-2__item-icon{
+  filter: invert(1);
+}
+
 /*----------------------------------------
     Body Overlay 
 -----------------------------------------*/
@@ -926,6 +942,10 @@ a.rr-a-btn:hover {
   background-color: var(--rr-common-white);
   box-shadow: 0 10px 50px rgba(0,0,0,0.1);
 }
+.cta-theme2{
+  background-color: var(--rr-common-white);
+  box-shadow: 0px 0px 23px 10px rgb(80 185 72 / 13%);
+}
 
 /*----------------------------------------*/
 /*  2.3 buttons
@@ -1080,7 +1100,7 @@ a.rr-a-btn:hover {
   height: 100%;
   left: 0;
   top: 0;
-  background: #071C3C;
+  background: #4fb9487b;
   opacity: 0.9;
 }
 .breadcrumb__area.overly:before {
@@ -2670,7 +2690,7 @@ a.rr-a-btn:hover {
 .index-banner__media {
   position: relative;
   overflow: hidden;
-  max-width: 504px;
+  max-width: 520px;
   margin-left: auto;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -2681,9 +2701,9 @@ a.rr-a-btn:hover {
   }
 }
 .index-banner__media img {
-  margin-left: 35px;
-  width: 469px;
-  height: 496px;
+  /* margin-left: 35px; */
+  width: 520px;
+  height: auto;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
@@ -2711,4 +2731,12 @@ a.rr-a-btn:hover {
   .index-banner__media-shape {
     display: none;
   }
+}
+
+.footer__cta-item-icon img {
+  transition: 0.4s;
+}
+
+.footer__cta-item.footer__cta-item_active .footer__cta-item-icon img, .footer__cta-item:hover .footer__cta-item-icon img {
+  transform: rotateY(180deg);
 }
