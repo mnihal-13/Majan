@@ -8092,8 +8092,8 @@ body .ui-tooltip {
 .service__item {
   padding: 30px;
   background: var(--rr-common-white);
-  -webkit-box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0px 10px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 0px 10px 3px rgba(0,0,0,0.1);
   border-radius: 20px;
   overflow: hidden;
   background: linear-gradient(#50b948 0 0) left / var(--p,0) no-repeat;
@@ -12110,6 +12110,9 @@ body .ui-tooltip {
   fill: var(--rr-heading-primary);
 }
 .doctor-details__info-list {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
   list-style: none;
 }
 .doctor-details__info-list li:not(:last-child) {
@@ -12117,6 +12120,11 @@ body .ui-tooltip {
 }
 .doctor-details__info-list li h5 {
   text-transform: capitalize;
+}
+.doctor-details__content-future__list{
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
 }
 .doctor-details__content-future__list li {
   list-style: none;
@@ -12128,7 +12136,7 @@ body .ui-tooltip {
   margin-bottom: 20px;
 }
 .doctor-details__content-future__list li span {
-  margin-right: 27px;
+  margin-right: 15px;
   font-size: var(--rr-fs-h5);
   color: var(--rr-color-900);
   line-height: var(--rr-lh-h5);
