@@ -2751,3 +2751,8 @@ a.rr-a-btn:hover {
 .footer__cta-item.footer__cta-item_active .footer__cta-item-icon img, .footer__cta-item:hover .footer__cta-item-icon img {
   transform: rotateY(180deg);
 }
+
+.service-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
