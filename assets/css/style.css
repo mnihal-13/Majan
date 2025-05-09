@@ -313,19 +313,20 @@ input[type=password],
 input[type=date],
 textarea {
   outline: none;
-  background-color: var(--rr-common-white);
+  background-color: var(--rr-common-white) !important;
   width: 100%;
-  border-radius: 999px;
+  border-radius: 20px !important;
   width: 100%;
   padding: 15px 30px;
   font-style: normal;
   font-weight: 400;
-  height: 58px;
+  height: 70px;
   font-size: 16px;
   line-height: 28px;
   color: var(--rr-color-900) !important;
-  border-radius: 999px;
-  border: 2px solid #E4E5E5;
+  /* border-radius: 999px; */
+  border: 2px solid #e4e5e54f;
+  box-shadow: 0px 5px 10px rgb(101 101 101 / 10%);
 }
 input[type=text]::-webkit-input-placeholder,
 input[type=email]::-webkit-input-placeholder,
@@ -666,6 +667,13 @@ a.rr-a-btn:hover {
 
 .experience-2__item-icon{
   filter: invert(1);
+}
+.fltr-inv{
+  filter: invert(1);
+}
+
+.clr-white{
+  color: var(--rr-common-white) !important;
 }
 
 .mt-rm-5{
@@ -2746,6 +2754,7 @@ a.rr-a-btn:hover {
 
 .footer__cta-item-icon img {
   transition: 0.4s;
+  filter: invert();
 }
 
 .footer__cta-item.footer__cta-item_active .footer__cta-item-icon img, .footer__cta-item:hover .footer__cta-item-icon img {
@@ -2755,4 +2764,36 @@ a.rr-a-btn:hover {
 .service-grid{
   display: grid;
   grid-template-columns: auto auto auto;
+}
+
+.client-testimonial__item-icon img{
+  height: 55px;
+  filter: grayscale(1);
+}
+
+.hero-img{
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  bottom: 30px;
+}
+
+.hero-img img{
+  height: 550px;
+}
+
+.team2 {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: -3px 3px 20px #0000002e;
+}
+.team2 img {
+  width: 100%;
+  height: 580px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer__cta-item-text p{
+  text-align: center;
 }

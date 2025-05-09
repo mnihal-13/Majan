@@ -1338,6 +1338,7 @@ a.rr-a-btn:hover {
 }
 .section__subtitle img {
   margin-right: 5px;
+  filter: hue-rotate(260deg);
 }
 
 .title-animation {
@@ -7685,7 +7686,7 @@ body .ui-tooltip {
 /*----------------------------------------*/
 .footer-3__cta-content {
   position: relative;
-  padding: 40px;
+  padding: 30px 60px 30px 50px;
   border-radius: 20px;
   z-index: 3;
 }
@@ -7828,7 +7829,7 @@ body .ui-tooltip {
   }
 }
 .footer-3__widget.footer-3__widget-item-4 {
-  padding-right: 110px;
+  padding-right: 65px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .footer-3__widget.footer-3__widget-item-4 {
@@ -7878,7 +7879,7 @@ body .ui-tooltip {
           align-items: start;
 }
 .footer-3__link-blog ul li a:hover h5 {
-  color: var(--rr-theme-primary);
+  color: var(--rr-common-black);
 }
 .footer-3__link-blog ul li a:hover span {
   color: var(--rr-theme-primary);
@@ -7913,7 +7914,7 @@ body .ui-tooltip {
   color: var(--rr-common-white);
 }
 .footer-3__link ul li:hover {
-  color: var(--rr-theme-primary);
+  color: var(--rr-common-black);
 }
 .footer-3__link ul li a {
   font-style: normal;
@@ -7923,7 +7924,7 @@ body .ui-tooltip {
   color: var(--rr-common-white);
 }
 .footer-3__link ul li a:hover {
-  color: var(--rr-theme-primary);
+  color: var(--rr-common-black);
 }
 .footer-3__social {
   display: -ms-flexbox;
@@ -7952,7 +7953,7 @@ body .ui-tooltip {
           justify-content: center;
 }
 .footer-3__social a:hover {
-  color: var(--rr-theme-primary);
+  color: var(--rr-common-black);
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
@@ -7967,7 +7968,7 @@ body .ui-tooltip {
   color: rgba(255, 255, 255, 0.7);
 }
 .footer-3__copyright p a:hover {
-  color: var(--rr-theme-primary);
+  color: var(--rr-common-black);
 }
 .footer-3__copyright-menu ul {
   display: -ms-flexbox;
@@ -8001,7 +8002,7 @@ body .ui-tooltip {
   color: rgba(255, 255, 255, 0.7);
 }
 .footer-3__copyright-menu ul li a:hover {
-  color: var(--rr-theme-primary);
+  color: var(--rr-common-black);
 }
 .footer-3__bottom {
   margin-top: 80px;
@@ -8097,10 +8098,11 @@ body .ui-tooltip {
   border-radius: 20px;
   overflow: hidden;
   background: linear-gradient(#50b948 0 0) left / var(--p,0) no-repeat;
-  transition: .4s,background-position 0s;
+  transition: .7s,background-position 0s;
 }
-.service__item a:hover {
-  color: var(--rr-theme-primary);
+.service__item a:hover,
+.service__item .rr-a-btn:hover {
+  color: var(--rr-common-white);
 }
 
 .service__item:hover{
@@ -8923,6 +8925,7 @@ body .ui-tooltip {
 }
 .about-us__media-big-shape {
   position: absolute;
+  filter: hue-rotate(260deg);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .about-us__media-big-shape {
@@ -8972,10 +8975,12 @@ body .ui-tooltip {
 .about-us__media-img.img1 .shape {
   bottom: 20px;
   left: 0;
+  filter: hue-rotate(260deg);
 }
 .about-us__media-img.img2 .shape {
   right: 20px;
   top: -40px;
+  filter: hue-rotate(260deg);
 }
 
 .appointment-2__background {
@@ -9946,12 +9951,12 @@ body .ui-tooltip {
 }
 .about-us-2__media-image-1::after {
   content: "";
-  top: 47px;
-  left: -20px;
+  top: 13px;
+  left: -15px;
   width: 100%;
   height: 581px;
   position: absolute;
-  border: 1.5px solid #185EC8;
+  border: 1.5px solid #50b948;
   border-radius: 0px 139.535px 139.535px 139.535px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -10007,6 +10012,7 @@ body .ui-tooltip {
   right: 0;
   bottom: -28px;
   position: absolute;
+  filter: hue-rotate(260deg);
 }
 .about-us-2__media-image-2::before {
   top: 8px;
@@ -10085,7 +10091,7 @@ body .ui-tooltip {
   border: 1px solid var(--rr-section-1);
 }
 .about-us-2__main-content__list-item-text {
-  max-width: 324px;
+  max-width: 445px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .about-us-2__main-content__list-item-text {
@@ -10545,7 +10551,7 @@ body .ui-tooltip {
 .experience-2__box {
   z-index: 3;
   position: relative;
-  padding: 60px 80px;
+  padding: 60px 55px;
   border-radius: 20px;
   overflow: hidden;
   gap: 15px;
@@ -10813,6 +10819,7 @@ body .ui-tooltip {
   width: 100%;
   height: 100%;
   opacity: 0.1;
+  margin-top: 120px;
   background-size: cover;
   filter: hue-rotate(275deg);
 }
@@ -10939,6 +10946,7 @@ body .ui-tooltip {
   top: 0px;
   opacity: 10%;
   position: absolute;
+  filter: hue-rotate(260deg);
 }
 .why-choose-us__content {
   z-index: 2;
@@ -11005,11 +11013,12 @@ body .ui-tooltip {
      -moz-column-gap: 47px;
           column-gap: 47px;
   list-style: none;
-  margin-left: -75px;
+  margin-left: -136px;
   padding: 38px 40px;
   padding-bottom: 28px;
   border-radius: 20px;
   background: var(--rr-common-white);
+  box-shadow: 0px 1px 10px #50b94875;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .why-choose-us__wrapper-list {
@@ -11307,9 +11316,12 @@ body .ui-tooltip {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  border-radius: 30px !important;
+  box-shadow: 0px 5px 10px rgb(101 101 101 / 10%);
+  border-radius: 20px !important;
   color: var(--rr-color-900) !important;
-  background-color: var(--rr-color-100) !important;
+  background-color: var(--rr-common-white) !important;
+  border: 2px solid #e4e5e54f;
+
 }
 .pricing-appointment__form-select .nice-select::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: var(--rr-color-900) !important;
@@ -11487,7 +11499,7 @@ body .ui-tooltip {
   padding: 20px;
   border-radius: 30px;
   color: var(--rr-color-900) !important;
-  background-color: var(--rr-color-100) !important;
+  background-color: var(--rr-common-white) !important;
 }
 @media (max-width: 575px) {
   .pricing-appointment__form textarea {
@@ -11518,9 +11530,8 @@ body .ui-tooltip {
 
 .contact__map {
   height: 522px;
-  -webkit-filter: saturate(0);
-          filter: saturate(0);
 }
+
 @media (max-width: 575px) {
   .contact__map {
     height: 400px;
@@ -11532,6 +11543,7 @@ body .ui-tooltip {
 .contact__map iframe {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
 }
 
 .error__content {
@@ -12067,6 +12079,7 @@ body .ui-tooltip {
   position: relative;
   overflow: hidden;
   border-radius: 30px;
+  box-shadow: -3px 3px 20px #0000002e;
 }
 .doctor-details__media img {
   width: 100%;
@@ -12462,6 +12475,11 @@ body .ui-tooltip {
 .service-details__content-media-item-1 {
   margin-right: -36px;
 }
+
+.service-details__content-media-item-1 p{
+  text-align: justify;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .service-details__content-media-item-1 {
     margin-right: inherit;
