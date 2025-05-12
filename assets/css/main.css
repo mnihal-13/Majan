@@ -8098,7 +8098,7 @@ body .ui-tooltip {
   border-radius: 20px;
   overflow: hidden;
   background: linear-gradient(#50b948 0 0) left / var(--p,0) no-repeat;
-  transition: .7s,background-position 0s;
+  transition: .5s,background-position 0s;
 }
 .service__item a:hover,
 .service__item .rr-a-btn:hover {
@@ -8108,6 +8108,9 @@ body .ui-tooltip {
 .service__item:hover{
   --p: 100%;
   background-position: right;
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 0px 20px 5px rgb(80 185 72 / 40%);
+
 }
 
 .treatment-process__content {
@@ -10389,6 +10392,11 @@ body .ui-tooltip {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.doctor__item-media img:hover{
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 0px 20px 5px rgb(80 185 72 / 40%);
+}
+
 .doctor__item-content-text {
   margin-top: -76px;
   padding: 30px 20px 35px;
