@@ -314,7 +314,19 @@
         // },
         autoplay: {
             delay: 3000,
-        }
+        },
+         // Responsive breakpoints
+        breakpoints: {
+            1200: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            0: {
+                slidesPerView: 1,
+            },
+        },
     });
 
     /*doctor__slider***/
