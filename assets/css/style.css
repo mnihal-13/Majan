@@ -2926,12 +2926,13 @@ a.rr-a-btn:hover {
   text-align: center;
 }
 
-/* Whatsapp Button */
+
 .bg-shape{
   background-size: contain;
   background-repeat: round;
 }
 
+/* Whatsapp Button */
 button.wh-ap-btn {
 	outline: none;
 	width: 60px;
