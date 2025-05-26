@@ -2935,8 +2935,8 @@ a.rr-a-btn:hover {
 /* Whatsapp Button */
 button.wh-ap-btn {
 	outline: none;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	border: 0;
 	background-color: #25D366 ;
 	padding: 0;
@@ -3014,8 +3014,8 @@ button.wh-ap-btn:hover {
 /* animacion pulse */
 
 .whatsapp-pulse {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	right: 10px;
 	bottom: 10px;
 	background: #10b418;
@@ -3036,8 +3036,8 @@ button.wh-ap-btn:hover {
 	bottom: -15px;
 	right: -15px;
 	background-color: #10b418;
-	width: 90px;
-	height: 90px;
+	width: 80px;
+	height: 80px;
 	border-radius: 100%;
 	animation-fill-mode: both;
 	-webkit-animation-fill-mode: both;

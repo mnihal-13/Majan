@@ -11596,8 +11596,15 @@ body .ui-tooltip {
   border-radius: 20px;
 }
 
+.error{
+  background:linear-gradient(to top, rgba(237, 255, 228, 0) 0%, rgb(185 72 72 / 50%) 50%);
+}
+.error-bg{
+  background: #dda2a275;
+}
 .error__content {
-  max-width: 520px;
+  text-align: center;
+  /* max-width: 520px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .error__content {
@@ -11607,12 +11614,15 @@ body .ui-tooltip {
 }
 .error__content .title {
   line-height: 230px;
-  color: transparent;
+  color: white;
   font-size: 210.833px;
   text-transform: capitalize;
   font-weight: var(--rr-fw-ebold);
-  -webkit-text-stroke: 3.83px #071C3C;
+  /* -webkit-text-stroke: 3.83px #071C3C; */
 }
+.error__content p{
+  color: white;
+} 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .error__content .title {
     line-height: 171px;
