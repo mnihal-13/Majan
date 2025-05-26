@@ -8012,7 +8012,7 @@ body .ui-tooltip {
 .footer-3__bottom {
   margin-top: 80px;
   padding: 28px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 3px double rgb(255 255 255 / 50%);
 }
 @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
   .footer-3__bottom {

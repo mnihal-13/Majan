@@ -2981,35 +2981,7 @@ button.wh-ap-btn:hover {
 	text-decoration: none;
 }
 
-/* button.wh-ap-btn::before {
-	content: "Chat with me";
-	display: block;
-	position: absolute;
-	margin-left: -130px;
-	margin-top: 16px;
-	height: 25px;
-	background: #49654e;
-	color: #fff;
-	font-weight: 400;
-	font-size: 15px;
-	border-radius: 3px;
-	width: 0;
-	opacity: 0;
-	padding: 0;
-	transition: opacity 0.4s, width 0.4s, padding 0.5s;
-	padding-top: 7px;
-	border-radius: 30px;
-	box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
-}
 
-.wh-fixed > a:hover button.wh-ap-btn::before {
-	opacity: 1;
-	width: auto;
-	padding-top: 7px;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 100px;
-} */
 
 /* animacion pulse */
 
