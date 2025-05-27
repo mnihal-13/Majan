@@ -682,6 +682,15 @@ a.rr-a-btn:hover {
 .mt-rm-10{
   margin-top: 10rem;
 }
+.mt-rm-15{
+  margin-top: 15rem;
+}
+
+@media (max-width:992px){
+  .mt-rm-15{
+    margin-top: 0rem;
+  }
+}
 
 .m-auto{
   margin: auto;
@@ -729,7 +738,7 @@ a.rr-a-btn:hover {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .mfp-iframe-holder .mfp-content {
-    max-width: 1000px;
+    /* max-width: 1000px; */
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -762,7 +771,7 @@ a.rr-a-btn:hover {
   width: 100%;
   font-family: var(--rr-ff-fontawesome);
   font-size: 31px;
-  font-weight: 200;
+  font-weight: 900;
   right: -20px;
   margin-top: -25px;
 }
@@ -2622,7 +2631,13 @@ a.rr-a-btn:hover {
 }
 
 .logo img{
-  width: 100%;
+  width: 90%;
+}
+
+@media (max-width:991px){
+  .logo img{
+    width: 75%;
+  }
 }
 
 /*----------------------------------------*/
@@ -2968,7 +2983,13 @@ button.wh-ap-btn:hover {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-  z-index: 50;
+  z-index: 9;
+  opacity: 0.7;
+}
+
+.wh-api:hover,
+.wh-api:active{
+  opacity: 10;
 }
 
 .wh-fixed {
@@ -2980,7 +3001,6 @@ button.wh-ap-btn:hover {
 	display: block;
 	text-decoration: none;
 }
-
 
 
 /* animacion pulse */

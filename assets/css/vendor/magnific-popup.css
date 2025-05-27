@@ -7,8 +7,8 @@
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #0b0b0b;
-  opacity: 0.8; }
+  background: #153513;
+  opacity: 0.9; }
 
 .mfp-wrap {
   top: 0;
@@ -236,6 +236,7 @@ button::-moz-focus-inner {
   .mfp-iframe-scaler iframe {
     position: absolute;
     display: block;
+    border-radius: 20px;
     top: 0;
     left: 0;
     width: 100%;
@@ -301,6 +302,16 @@ img.mfp-img {
 
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
+
+@media (max-width:991px) {
+  .mfp-container{
+    height: 50%;
+  }
+
+  .mfp-iframe-scaler iframe{
+    height: 280%;
+  }
+}
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**

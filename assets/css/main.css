@@ -699,7 +699,7 @@ a.rr-a-btn:hover {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .mfp-iframe-holder .mfp-content {
-    max-width: 1000px;
+    /* max-width: 1000px; */
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -732,7 +732,7 @@ a.rr-a-btn:hover {
   width: 100%;
   font-family: var(--rr-ff-fontawesome);
   font-size: 31px;
-  font-weight: 200;
+  font-weight: 900;
   right: -20px;
   margin-top: -25px;
 }
@@ -8014,9 +8014,20 @@ body .ui-tooltip {
   padding: 28px 0;
   border-top: 3px double rgb(255 255 255 / 50%);
 }
+.footer-3__bottom-wrapper{
+  margin-bottom: 3rem;
+}
+
 @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
   .footer-3__bottom {
-    margin-top: 40px;
+    margin-top: 20px;
+  }
+  .footer-3__copyright p {
+  font-size: 14px;
+  font-weight: 300;
+  }
+  .footer-3__copyright-menu ul li a {
+  font-size: 14px;
   }
 }
 
@@ -11613,9 +11624,9 @@ body .ui-tooltip {
   }
 }
 .error__content .title {
-  line-height: 230px;
+  line-height: 150px;
   color: white;
-  font-size: 210.833px;
+  font-size: 150px;
   text-transform: capitalize;
   font-weight: var(--rr-fw-ebold);
   /* -webkit-text-stroke: 3.83px #071C3C; */
@@ -11623,16 +11634,28 @@ body .ui-tooltip {
 .error__content p{
   color: white;
 } 
+
+@media (max-width:991px){
+  .error__media img{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+
+  .pTop{
+    padding-top: 160px;
+  }
+}
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .error__content .title {
-    line-height: 171px;
-    font-size: 160.833px;
+    line-height: 120px;
+    font-size: 100px;
   }
 }
 @media (max-width: 575px) {
   .error__content .title {
-    line-height: 150px;
-    font-size: 140.833px;
+    line-height: 90px;
+    font-size: 70px;
   }
 }
 
