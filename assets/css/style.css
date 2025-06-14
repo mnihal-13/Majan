@@ -1000,7 +1000,7 @@ a.rr-a-btn:hover {
   overflow: hidden;
   z-index: 5;
   padding: 16px 16px;
-  margin: 13px;
+  /* margin: 13px; */
   background-color: var(--rr-theme-primary);
 }
 .rr-btn.rr-btn__primary {
@@ -1249,6 +1249,9 @@ a.rr-a-btn:hover {
   font-weight: 900;
   font-size: 16px;
   line-height: 16px;
+}
+.breadcrumb__menu.arb ul li:after{
+  content: "\f104";
 }
 .breadcrumb__menu ul li a:hover {
   color: var(--rr-theme-primary);
@@ -2187,6 +2190,9 @@ a.rr-a-btn:hover {
     height: 1px;
     background-color: var(--rr-theme-primary);
   }
+  .main-menu.arb ul li .submenu li a::before{
+    left: 80px;
+  }
   .main-menu ul li .submenu li .submenu {
     inset-inline-start: 100%;
     top: 0;
@@ -2680,6 +2686,9 @@ a.rr-a-btn:hover {
 .index-banner__content {
   max-width: 503px;
 }
+.index-banner__content.ara h4{
+  padding-left: 70px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .index-banner__content {
     max-width: 100%;
@@ -2706,7 +2715,8 @@ a.rr-a-btn:hover {
   }
 }
 .index-banner__content .rr-btn {
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
+  margin-top: 13px;
 }
 .index-banner__content .readmore {
   font-style: normal;
@@ -2798,19 +2808,20 @@ a.rr-a-btn:hover {
   position: absolute;
   display: flex;
   justify-content: end;
-  bottom: 30px;
-  margin: 40px;
-  /* filter: drop-shadow(2px 7px 15px #000000c2); */
+  bottom: 20px;
+  margin: 10px;
+  filter: drop-shadow(2px 7px 15px #000000c2);
 }
 
 .hero-img img{
-  height: 600px;
+  height: 530px;
 }
 
 
 @media (max-width: 1399px){
   .hero-img{
-    bottom: 190px;
+    bottom: 60px;
+    left: 20px;
   }
 
   .hero-img img{
@@ -2846,13 +2857,19 @@ a.rr-a-btn:hover {
 
 }
 
+@media (min-width:991px) and (max-width: 1199px){
+  .index-banner__content h4{
+    padding-right: 100px;
+  }
+}
 
 @media (max-width: 992px){
   .hero-img{
     position: relative;
     display: block;
-    bottom: 110px;
+    bottom: 70px;
     margin: auto;
+    left: 0;
   }
   .hero-img img{
     height: auto;
