@@ -2854,6 +2854,9 @@ a.rr-a-btn:hover {
   margin: 10px;
   filter: drop-shadow(2px 7px 15px #000000c2);
 }
+.hero-img.arb{
+  bottom: -20px;
+}
 
 .hero-img img{
   height: 530px;
