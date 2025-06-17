@@ -3197,3 +3197,22 @@ button.wh-ap-btn:hover {
   filter: drop-shadow(0px 0px 5px #4fb948) !important;
 }
 
+.hght-ar{
+  height: 360px;
+}
+
+@media (max-width:1199px){
+  .hght-ar{
+    height: 370px;
+  }
+}
+@media (min-width:991px) and (max-width:1199px){
+  .hght{
+    height: 425px;
+  }
+}
+@media (max-width:991px){
+  .hght-ar{
+    height: auto;
+  }
+}
