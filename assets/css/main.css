@@ -754,6 +754,7 @@ a.rr-a-btn:hover {
      object-fit: cover;
 }
 
+
 /*---------------------------------
 	1.8 spacing
 ---------------------------------*/
@@ -7785,6 +7786,11 @@ body .ui-tooltip {
 }
 .footer-3__cta-content-left {
   max-width: 550px;
+}
+@media (max-width:1199px){
+  .footer-3__cta-content-form{
+    align-items: center;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .footer-3__cta-content-left {
