@@ -2925,6 +2925,9 @@ a.rr-a-btn:hover {
   .index-banner__content h4{
     padding-right: unset;
   }
+  .hero-img.arb{
+    bottom: unset;
+  }
 }
 
 @media (max-width: 992px){

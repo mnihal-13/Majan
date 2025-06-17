@@ -8182,6 +8182,11 @@ body .ui-tooltip {
        object-fit: cover;
   }
 }
+@media (min-width: 768px) and (max-width: 1199px){
+  .service__item{
+    height: 275px;
+  }
+}
 .treatment-process__media .popup-video {
   z-index: 2;
   top: calc(50% - 50px);
