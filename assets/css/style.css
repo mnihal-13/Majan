@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  src: url('/assets/fonts/droid-arabic-naskh/DroidNaskh-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  src: url('/assets/fonts/droid-arabic-naskh/DroidNaskh-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
 .rr__faq-2 .accordion-button::after, .rr__faq .accordion-button::after {
   border-radius: 500px;
 }
@@ -59,6 +78,7 @@ svg path {
   @font family declaration
   */
   --rr-ff-body: 'Roboto', sans-serif;
+  --rr-ff-body-ar: 'Droid Arabic Naskh', sans-serif;
   --rr-ff-heading: 'Roboto', sans-serif;
   --rr-ff-roboto: 'Roboto', sans-serif;
   --rr-ff-fontawesome: "Font Awesome 6 Pro";
@@ -128,6 +148,14 @@ svg path {
   box-sizing: border-box;
 }
 
+html[lang="ar"],
+body.arabic{
+  font-family: 'Droid Arabic Naskh', sans-serif !important;
+  --rr-ff-heading: 'Droid Arabic Naskh', sans-serif;
+  /* direction: rtl;
+  text-align: right; */
+}
+
 html {
   font-size: 10px;
 }
@@ -144,6 +172,10 @@ body {
   background: var(--rr-body-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body.arabic {
+  font-family: var(--rr-ff-body-ar) !important;
+  --rr-ff-heading: 'Droid Arabic Naskh', sans-serif;
 }
 
 .body-font {
@@ -1238,6 +1270,10 @@ a.rr-a-btn:hover {
   position: relative;
   color: var(--rr-common-white);
 }
+.breadcrumb__menu.arb ul li{
+  font-weight: 900;
+}
+
 .breadcrumb__menu ul li:after {
   position: absolute;
   -webkit-transform: translate(0, 21%);
@@ -1252,6 +1288,7 @@ a.rr-a-btn:hover {
 }
 .breadcrumb__menu.arb ul li:after{
   content: "\f104";
+  margin-right: 18px;
 }
 .breadcrumb__menu ul li a:hover {
   color: var(--rr-theme-primary);
@@ -2689,6 +2726,11 @@ a.rr-a-btn:hover {
 .index-banner__content.ara h4{
   padding-left: 70px;
 }
+@media (max-width: 991px) {
+  .index-banner__content.ara h4{
+    padding-left: unset;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .index-banner__content {
     max-width: 100%;
@@ -2817,6 +2859,9 @@ a.rr-a-btn:hover {
   height: 530px;
 }
 
+.hero-img.arb img{
+  height: 530px;
+}
 
 @media (max-width: 1399px){
   .hero-img{
@@ -2824,7 +2869,14 @@ a.rr-a-btn:hover {
     left: 20px;
   }
 
+  .hero-img.arb{
+    left: unset;
+  }
+
   .hero-img img{
+    height: 420px;
+  }
+  .hero-img.arb img{
     height: 420px;
   }
 
@@ -2853,6 +2905,12 @@ a.rr-a-btn:hover {
   .doctor-details__content-future__list{
     column-count: 1;
   }
+  .hero-img.arb{
+    left: -55px;
+  }
+  .hero-img.arb img{
+    height: 390px;
+  }
 
 
 }
@@ -2860,6 +2918,9 @@ a.rr-a-btn:hover {
 @media (min-width:991px) and (max-width: 1199px){
   .index-banner__content h4{
     padding-right: 100px;
+  }
+  .index-banner__content h4{
+    padding-right: unset;
   }
 }
 
@@ -2872,6 +2933,12 @@ a.rr-a-btn:hover {
     left: 0;
   }
   .hero-img img{
+    height: auto;
+  }
+  .hero-img.arb{
+    left: unset;
+  }
+  .hero-img.arb img{
     height: auto;
   }
 
@@ -2919,6 +2986,9 @@ a.rr-a-btn:hover {
   .doctor-details__content-future__list{
     column-count: 1;
   }
+  .hero-img.arb img{
+    height: 410px;
+  }
   
 }
 
@@ -2934,8 +3004,17 @@ a.rr-a-btn:hover {
   .doctor-details__info-list{
     column-count: 1;
   }
+  .hero-img.arb img{
+    height: 370px;
+  }
 
 
+}
+
+@media(max-width: 475px){
+  .hero-img.arb img{
+    height: 280px;
+  }
 }
 
 .team2 {
@@ -3102,3 +3181,13 @@ button.wh-ap-btn:hover {
 		opacity: 0;
 	}
 }
+
+
+.client-testimonial .btn-wrap .text-one{
+  color: var(--primary);
+  font-weight: 600;
+}
+.client-testimonial a:hover{
+  filter: drop-shadow(0px 0px 5px #4fb948) !important;
+}
+
