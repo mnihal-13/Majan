@@ -686,7 +686,7 @@ a.rr-a-btn:hover {
 }
 
 .jstfy-centre{
-  justify-items: center;
+  justify-items: center !important;
 }
 
 .mt-minus-70{
