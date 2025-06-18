@@ -2873,6 +2873,10 @@ a.rr-a-btn:hover {
   height: 530px;
 }
 
+.client-testimonial .client-testimonial__content-right p{
+  text-align: justify;
+}
+
 @media (max-width: 1399px){
   .hero-img{
     bottom: 60px;
