@@ -151,7 +151,7 @@ svg path {
 html[lang="ar"],
 body.arabic{
   font-family: 'Droid Arabic Naskh', sans-serif !important;
-  --rr-ff-heading: 'Droid Arabic Naskh', sans-serif;
+  --rr-ff-heading: 'Droid Arabic Naskh', sans-serif !important;
   /* direction: rtl;
   text-align: right; */
 }
@@ -175,7 +175,7 @@ body {
 }
 body.arabic {
   font-family: var(--rr-ff-body-ar) !important;
-  --rr-ff-heading: 'Droid Arabic Naskh', sans-serif;
+  --rr-ff-heading: 'Droid Arabic Naskh', sans-serif !important;
 }
 
 .body-font {
