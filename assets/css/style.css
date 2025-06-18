@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @font-face {
   font-family: 'Droid Arabic Naskh';
-  src: url('/assets/fonts/droid-arabic-naskh/DroidNaskh-Regular.ttf') format('truetype');
+  src: url('/Majan/assets/fonts/droid-arabic-naskh/DroidNaskh-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'Droid Arabic Naskh';
-  src: url('/assets/fonts/droid-arabic-naskh/DroidNaskh-Bold.ttf') format('truetype');
+  src: url('/Majan/assets/fonts/droid-arabic-naskh/DroidNaskh-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 
@@ -183,6 +181,15 @@ body.arabic {
   font-size: var(--rr-fs-body);
   line-height: var(--rr-lh-body);
   font-weight: normal;
+}
+
+body.arabic h1, 
+body.arabic h2, 
+body.arabic h3, 
+body.arabic h4, 
+body.arabic h5, 
+body.arabic h6 {
+  font-family: 'Droid Arabic Naskh', sans-serif !important;
 }
 
 h1, .h1,

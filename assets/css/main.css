@@ -7,18 +7,16 @@
 }
 @font-face {
   font-family: 'Droid Arabic Naskh';
-  src: url('/assets/fonts/droid-arabic-naskh/DroidNaskh-Regular.ttf') format('truetype');
+  src: url('/Majan/assets/fonts/droid-arabic-naskh/DroidNaskh-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'Droid Arabic Naskh';
-  src: url('/assets/fonts/droid-arabic-naskh/DroidNaskh-Bold.ttf') format('truetype');
+  src: url('/Majan/assets/fonts/droid-arabic-naskh/DroidNaskh-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 .pricing-action-3__item, .rr__faq-2 .accordion-item, .pricing-action-2__item, .latest-work__slider-dot .swiper-pagination-bullet, .latest-work__item-hover, .specialist-doctor__item, .doctor__slider-dot .swiper-pagination-bullet, .client-testimonial__slider-dot .swiper-pagination-bullet, .service-4__item, .service-4__item-icon img, .our-projects__item__content::before, .our-projects__item__content-icon, .our-projects__item__content-text, .rr__faq .accordion-item, .team__item-content-share, .pricing__item, .service__item-icon img, .brand__thumb img, .footer-2__link ul li a i, .sidebar__widget-service a i, .mean-container .mean-nav ul li > a.mean-expand i, .main-menu ul li.has-dropdown > a::after, .main-menu ul li .submenu, .main-menu ul li .submenu li a::before, .main-menu ul li .mega-menu, .main-menu ul li .mega-menu li ul li a::before, .search__input .search-input-field ~ .search-focus-border, .search__input .search-input-field:focus ~ .search-focus-border, .offcanvas__overlay, .offcanvas__navigation button svg, .rr-btn .btn-wrap .text-one, .rr-btn .btn-wrap .text-two, .body__overlay, a,
@@ -180,6 +178,14 @@ body.arabic {
   font-size: var(--rr-fs-body);
   line-height: var(--rr-lh-body);
   font-weight: normal;
+}
+body.arabic h1, 
+body.arabic h2, 
+body.arabic h3, 
+body.arabic h4, 
+body.arabic h5, 
+body.arabic h6 {
+  font-family: 'Droid Arabic Naskh', sans-serif !important;
 }
 
 h1, .h1,
