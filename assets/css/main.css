@@ -11667,6 +11667,10 @@ body .ui-tooltip {
   }
 }
 
+.pricing-appointment__form-input label{
+  font-weight: 700;
+}
+
 .loading-form {
   position: fixed !important;
   width: 100% !important;

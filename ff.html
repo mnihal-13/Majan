@@ -27,16 +27,18 @@
 <body class="body-1">
 
 
+
     <main>
 
 
-    <section class="pricing-appointment section-space mt-sm-40 mt-xs-30">
+    <section class="pricing-appointment mt-5 mt-sm-40 mt-xs-30">
         <div class="container">
             <div class="row align-items-center text-center mb-60 mb-sm-50 mb-xs-40">
                 <div class="">
                     <div class="section__title-wrapper">
-                        <h5 class="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation">Contact Us</h5>
-                        <h2 class="section__title mb-0 title-animation">Strengthen Your Vison With Us</h2>
+                        <h5 class="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation">Give Your Feedback</h5>
+                        <!-- <h2 class="section__title mb-0 title-animation">Strengthen Your Vison With Us</h2> -->
+                        <img src="assets/imgs/majaan-logo.png" alt="" height="100px">
                     </div>
                 </div>
             </div>
@@ -45,35 +47,82 @@
                 <!-- Contact Form -->
                 <div class="col-lg-12">
                     <form id="gform"  method="" action="" class="pricing-appointment__form mt-md-60 mt-sm-60 mt-xs-60">
-                        <h4 class="text-center section__title mb-15 title-animation">Contact Form</h4>
+                        <h4 class="text-center section__title mb-15 title-animation">Majan Eye Centre – Patient Feedback Form</h4>
+                        <h4 class="text-center section__title mb-15 title-animation">نموذج تقييم المرضى – مركز مجان للعيون</h4>
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-12">
                                 <div class="pricing-appointment__form-input">
-                                    <input name="name" id="name" type="text" placeholder="Your name" required>
+                                    <input name="name" id="name" type="text" placeholder="Your name ( الاسم )" required>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-6">
                                 <div class="pricing-appointment__form-input">
-                                    <input name="date" id="date" type="date" placeholder="Date" required>
+                                    <input name="date" id="date" type="text" placeholder="Date ( التاريخ )" required>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-6">
                                 <div class="pricing-appointment__form-input">
-                                    <input name="phone" id="phone" type="tel" placeholder="Phone" required>
+                                    <input name="mr-no" id="mr_no" type="number" placeholder="Mr No" required>
+                                </div>
+                            </div><br><br>
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Overall Experience ( التجربة العامة )</label>
+                                    <input name="overall-experience" id="exp" type="number" placeholder="⭐1⭐2⭐3⭐4⭐5" min="0" max="5" required>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
-                                <div class="pricing-appointment__form-select">
-                                    <select name="doctor" id="doctor">
-                                        <option value="" disabled="" selected="" hidden="">Choose a Doctor</option>
-                                        <option value="Dr.WALEED-BUNAMI">Dr. WALEED BUNAMI</option>
-                                        <option value="Dr.MOHAMMED-ANWAR">Dr. MOHAMMED ANWAR</option>
-                                    </select>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Doctor’s Care ( تعامل الطبيب )</label>
+                                    <input name="Dr-care" id="care" type="number" placeholder="⭐1⭐2⭐3⭐4⭐5" min="0" max="5" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Service from the Front Desk ( خدمة موظفي الاستقبال )</label>
+                                    <input name="FrontD-Service" id="fd_service" type="number" placeholder="⭐1⭐2⭐3⭐4⭐5" min="0" max="5" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Cleanliness of the Clinic ( نظافة العيادة )</label>
+                                    <input name="Cleanliness" id="cleanliness" type="number" placeholder="⭐1⭐2⭐3⭐4⭐5" min="0" max="5" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Staff Friendliness ( ودّ وتعامل الموظفين )</label>
+                                    <input name="Staff-friendliness" id="staff" type="number" placeholder="⭐1⭐2⭐3⭐4⭐5" min="0" max="5" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Nursing Service</label>
+                                    <input name="Nursing-service" id="nurse_services" type="number" placeholder="⭐1⭐2⭐3⭐4⭐5" min="0" max="5" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Rate the Explanation by the doctor / staff about your Condition & Treatment <br> ( وضوح شرح الحالة والعلاج )</label>
+                                    <input name="Explanations-of-Dr/staff" id="explanation" type="number" placeholder="⭐1⭐2⭐3⭐4⭐5" min="0" max="5" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="pricing-appointment__form-input">
+                                    <label for="">Would you recommend Majan Eye Centre to others? <br> ( هل تنصح بمركز مجان للعيون للآخرين؟ )</label>
+                                    <div class="pricing-appointment__form-select">
+                                        <select name="Recommend-to-others" id="recommend">
+                                            <option value="" disabled="" selected="" hidden="">Select</option>
+                                            <option value="Yes">Yes</option>
+                                            <option value="No`">No</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="pricing-appointment__form-input">
-                                    <textarea name="message" id="message" placeholder="Messege"></textarea>
+                                    <textarea name="advice-for-improve" id="advice" placeholder="Any advice for us to improve further"></textarea>
                                 </div>
                             </div>
 
@@ -92,6 +141,7 @@
             </div>
         </div>
     </section>
+
 
 
 
@@ -143,30 +193,58 @@
             e.preventDefault();
 
             const formData = {
-                treatment: $("#treatment").val(),
+                name: $("#name").val(),
+                date: $("#date").val(),
+                mr_no: $("#mr_no").val(),
+                exp: $("#exp").val(),
+                care: $("#care").val(),
+                fd_service: $("#fd_service").val(),
                 cleanliness: $("#cleanliness").val(),
                 staff: $("#staff").val(),
-                satisfaction: $("#satisfaction").val(),
+                nurse_services: $("#nurse_services").val(),
+                explanation: $("#explanation").val(),
                 recommend: $("#recommend").val(),
+                advice: $("#advice").val(),
                 formGoogleSheetName: "responses",
                 formGoogleSendEmail: "mnkv1013@gmail.com",
-                formDataNameOrder: JSON.stringify(["treatment", "cleanliness", "staff", "satisfaction", "recommend"])
+                formDataNameOrder: JSON.stringify(["name", "date", "mr_no", "exp", "care", "fd_service", "cleanliness", "staff", "nurse_services", "explanation", "recommend", "advice"])
             };
 
             if (navigator.onLine) {
                 sendToServer(formData, function (success) {
                     if (success) {
-                        $("#submit-alert").text("Feedback submitted online! ✅").css({ color: "green" });
-                        setTimeout(() => window.location.reload(), 5000);
+                        $("#submit-alert").text("Feedback submitted! ✅").css({"color": "#50b948", "font-weight": "900"});
+                        // setTimeout(() => window.location.reload(), 5000);
+                            setTimeout(() => {
+                                $("#gform").fadeOut(500, function () {
+                                    resetForm();
+                                    $("#gform").fadeIn(500);
+                                    $("#submit-alert").text("");
+                                });
+                            }, 5000);
                     } else {
                         saveOffline(formData);
-                        $("#submit-alert").text("Connection error. Saved offline, will retry when online! ⚠️").css({ color: "orange" });
+                        $("#submit-alert").text("Connection error. Saved offline, will retry when online! ⚠️").css({ color: "orange", "font-weight": "900" });
+                        setTimeout(() => {
+                                $("#gform").fadeOut(500, function () {
+                                    resetForm();
+                                    $("#gform").fadeIn(500);
+                                    $("#submit-alert").text("");
+                                });
+                            }, 5000);
                     }
                 });
             } else {
                 saveOffline(formData);
-                $("#submit-alert").text("No internet. Saved offline, will retry when online! ⚠️").css({ color: "orange" });
-            }
+                $("#submit-alert").text("No internet. Saved offline, will retry when online! ⚠️").css({ color: "orange", "font-weight": "900"});
+                    setTimeout(() => {
+                        $("#gform").fadeOut(500, function () {
+                            resetForm();                     
+                            $("#gform").fadeIn(500);         
+                            $("#submit-alert").text("");
+                        });
+                    }, 5000);
+                }
         });
 
         // Retry unsent offline data every 5 seconds
@@ -178,7 +256,7 @@
                     sendToServer(next, function (success) {
                         if (success) {
                             localStorage.setItem(STORAGE_KEY, JSON.stringify(queue));
-                            $("#submit-alert").text("Offline feedback synced ✅").css({ color: "green" });
+                            $("#submit-alert").text("Offline feedback synced ✅").css({ color: "#50b948", "font-weight": "900" });
                         } else {
                             queue.unshift(next); // put it back
                             localStorage.setItem(STORAGE_KEY, JSON.stringify(queue));
@@ -187,6 +265,10 @@
                 }
             }
         }, 5000);
+
+        function resetForm() {
+            $('#gform')[0].reset();  // Reset all fields
+        }
     </script>
     <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
     <script src="assets/js/plugins/waypoints.min.js"></script>
