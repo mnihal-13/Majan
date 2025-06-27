@@ -12740,6 +12740,16 @@ body .ui-tooltip {
   line-height: 20px;
   color: var(--rr-common-white);
 }
+.pricing-appointment__form.feedback .pricing-appointment__form-input input::placeholder,
+.pricing-appointment__form.feedback .pricing-appointment__form-input textarea::placeholder{
+  font-size: 23px;
+  /* font-weight: 300; */
+  opacity: 0.5;
+}
+.pricing-appointment__form .pricing-appointment__form-input input::placeholder,
+.pricing-appointment__form .pricing-appointment__form-input textarea::placeholder{
+  opacity: 0.5;
+}
 
 .pricing-appointment__form-input label{
   font-weight: 700;
