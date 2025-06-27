@@ -362,6 +362,11 @@ textarea {
   border-radius: 999px;
   border: 2px solid #E4E5E5;
 }
+input[type=radio]{
+  width: 35% !important;
+  height: 50px !important;
+}
+
 input[type=text]::-webkit-input-placeholder,
 input[type=email]::-webkit-input-placeholder,
 input[type=tel]::-webkit-input-placeholder,
@@ -11667,9 +11672,7 @@ body .ui-tooltip {
   }
 }
 
-.pricing-appointment__form-input label{
-  font-weight: 700;
-}
+
 
 .loading-form {
   position: fixed !important;
@@ -12736,4 +12739,35 @@ body .ui-tooltip {
   font-size: 14px;
   line-height: 20px;
   color: var(--rr-common-white);
+}
+
+.pricing-appointment__form-input label{
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.star-rating {
+    display: flex;
+    gap: 15px;
+    font-size: 70px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+
+  .star-rating span {
+    color: #ccc;
+    transition: color 0.2s;
+  }
+
+  .star-rating .selected {
+    color: gold;
+  }
+  .rating-error {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 3px;
 }
